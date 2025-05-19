@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="css/js/cart.js" defer></script>
+  <link rel="stylesheet" href="css/js/fade.css">
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+        document.body.classList.add('fade-in');
+    });
+</script>
+
+</head>
+<body>
+  <header>
+   <div class="header-logo"><a href="index.html">Sankale's e-shop</a></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-container"></div>
+    <div id="cart-total"></div>
+    <div class="cart-buttons">
+      <a href="index.html" class="btn">Continue Shopping</a>
+      <button onclick="checkoutCart()" class="btn checkout">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>

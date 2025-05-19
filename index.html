@@ -1,0 +1,90 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/js/fade.css">
+    <script src="css/js/cart.js" defer></script>
+    <script src="css/js/slider.js" defer></script>
+</head>
+<body>
+       <section class="slider">
+        <div class="slides">
+            <img src="assets/audio.png" class="slide active" alt="Slide 1">
+            <img src="assets/cable.png" class="slide" alt="Slide 2">
+            <img src="assets/sim.png" class="slide" alt="Slide 3">
+        </div>
+    </section>
+    <header>
+     
+          <div class="header-logo"><a href="index.html">Sankale's e-shop</a></div>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <script>
+    window.addEventListener('DOMContentLoaded', () => {
+        document.body.classList.add('fade-in');
+    });
+</script>
+
+    </header>
+      <main>
+        <h1>Our Products</h1>
+        <div class="product-list">
+            <div class="product" data-id="1">
+                <img src="assets/product1.jpg" alt="Headphones">
+                <h2>Clarity Headphones</h2>
+                <p>Ksh.2600</p>
+                <button onclick="addToCart(1, 'Audio Clarity Headphones', 2600, )">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="assets/product2.jpg" alt="CableConnect Pro">
+                <h2>Mechanical Keyboard</h2>
+                <p>Ksh.3000</p>
+                <button onclick="addToCart(2, 'CableConnect Pro', 3000)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3">
+                <img src="assets/product3.jpg" alt="SimEase">
+                <h2>Keyboard Slim</h2>
+                <p>Ksh.5000</p>
+                <button onclick="addToCart(3, 'SimEase Solutions', 5000)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025. All rights reserved</p>
+    </footer>
+ 
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
