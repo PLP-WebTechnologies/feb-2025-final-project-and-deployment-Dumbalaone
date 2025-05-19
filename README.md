@@ -33,4 +33,11 @@ This is a responsive, modern e-commerce website built with **HTML5**, **CSS3**, 
 
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/your-username/mycompany-ecommerce.git
+   [git clone https://github.com/your-username/mycompany-ecommerce.git](https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Dumbalaone.git)
+
+   
+   ## 🌐 Live Demo
+
+👉 [View the Live Site](https://vercel.com/dumbalaones-projects/deployed_web/9fN3XPhA2CHyqwxbL3UkZosp6468)  
+
+
