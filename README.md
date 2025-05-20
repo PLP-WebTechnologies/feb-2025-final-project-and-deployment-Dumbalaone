@@ -38,6 +38,7 @@ This is a responsive, modern e-commerce website built with **HTML5**, **CSS3**, 
    
    ## 🌐 Live Demo
 
-👉 [View the Live Site](https://vercel.com/dumbalaones-projects/deployed_web/9fN3XPhA2CHyqwxbL3UkZosp6468)  
+👉 [View the Live Site](https://deployedweb.vercel.app/)
+
 
 
